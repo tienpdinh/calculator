@@ -5,11 +5,12 @@ const Calculation = props => {
   return (
     <Toast>
       <Toast.Header closeButton={false}>
-        <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
+        <img className="rounded mr-2" alt="" />
         <strong className="mr-auto">Anonymous</strong>
+        <small>{props.stat}</small>
       </Toast.Header>
       <Toast.Body>
-        {props.x + ' ' + props.op + ' ' + props.y + ' = ' + props.result}
+        {props.x + " " + props.op + " " + props.y + " = " + props.result}
       </Toast.Body>
     </Toast>
   );
