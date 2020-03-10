@@ -8,8 +8,8 @@ const navigation = (props) => (
     <Navbar.Toggle />
     <Navbar.Collapse className="justify-content-end">
       <Nav className="mr-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#link">Link</Nav.Link>
+        <Nav.Link href="https://tienpdinh.com/calculator">Home</Nav.Link>
+        <Nav.Link href="https://tienpdinh.com">Tien's Portfolio</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
